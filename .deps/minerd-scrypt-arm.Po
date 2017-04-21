@@ -1,0 +1,6 @@
+minerd-scrypt-arm.o: scrypt-arm.S /usr/include/stdc-predef.h \
+ cpuminer-config.h
+
+/usr/include/stdc-predef.h:
+
+cpuminer-config.h:
