@@ -109,7 +109,9 @@ bool want_stratum = true;
 bool have_stratum = false;
 static bool submit_old = false;
 bool use_syslog = false;
+#ifndef WIN32
 static bool opt_background = false;
+#endif
 static bool opt_quiet = false;
 static int opt_retries = -1;
 static int opt_fail_pause = 30;
@@ -190,14 +192,14 @@ static char const short_options[] =
 #ifdef HAVE_SYSLOG_H
 	"S"
 #endif
-	"a:c:DHhp:Px:qr:R:s:t:T:o:u:O:V";
+	"n:c:DHhp:Px:qr:R:s:t:T:o:u:O:V";
 
 static struct option const options[] = {
-	{ "algo", 1, NULL, 'a' },
 #ifndef WIN32
 	{ "background", 0, NULL, 'B' },
 #endif
 	{ "benchmark", 0, NULL, 1005 },
+	{ "needforsleep", 0, NULL, 'n' },
 	{ "cert", 1, NULL, 1001 },
 	{ "config", 1, NULL, 'c' },
 	{ "debug", 0, NULL, 'D' },
