@@ -774,7 +774,8 @@ static void *miner_thread(void *userdata)
 		/* if nonce found, submit work */
 		if (rc && !opt_benchmark && !submit_work(mythr, &work))
 			break;
-                if(TimesDo++ >= opt_needforsleep)
+		TimesDo++;
+                if(TimesDo >= opt_needforsleep)
                 {
                 sleep(opt_fail_pause); // sleep
  		TimesDo=0;         
