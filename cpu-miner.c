@@ -235,7 +235,7 @@ struct work {
 	unsigned char xnonce2[32];
 };
 
-static struct work g_work;
+struct work g_work;
 static time_t g_work_time;
 static pthread_mutex_t g_work_lock;
 
