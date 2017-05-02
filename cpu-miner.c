@@ -235,7 +235,11 @@ struct work {
 	unsigned char xnonce2[32];
 };
 
+<<<<<<< HEAD
 struct work g_work;
+=======
+static struct work g_work;
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 static time_t g_work_time;
 static pthread_mutex_t g_work_lock;
 

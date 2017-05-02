@@ -34,7 +34,11 @@ minerd-util.o: util.c /usr/include/stdc-predef.h cpuminer-config.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+<<<<<<< HEAD
  /usr/local/include/jansson.h /usr/local/include/jansson_config.h \
+=======
+ /usr/include/jansson.h /usr/include/jansson_config.h \
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
  /usr/include/curl/curl.h /usr/include/curl/curlver.h \
  /usr/include/curl/curlbuild.h /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
@@ -167,9 +171,15 @@ cpuminer-config.h:
 
 /usr/include/getopt.h:
 
+<<<<<<< HEAD
 /usr/local/include/jansson.h:
 
 /usr/local/include/jansson_config.h:
+=======
+/usr/include/jansson.h:
+
+/usr/include/jansson_config.h:
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 
 /usr/include/curl/curl.h:
 

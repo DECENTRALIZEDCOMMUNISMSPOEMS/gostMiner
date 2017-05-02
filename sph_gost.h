@@ -149,7 +149,11 @@ void sph_gost512_init(void *cc);
  * @param data   the input data
  * @param len    the input data length (in bytes)
  */
+<<<<<<< HEAD
 void sph_gost512(void *cc, void *data, size_t len);
+=======
+void sph_gost512(void *cc, const void *data, size_t len);
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 
 /**
  * Terminate the current GOST-512 computation and output the result into

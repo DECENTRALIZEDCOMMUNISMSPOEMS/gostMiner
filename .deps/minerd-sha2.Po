@@ -21,7 +21,11 @@ minerd-sha2.o: sha2.c /usr/include/stdc-predef.h cpuminer-config.h \
  /usr/local/gcc-6.2/lib/gcc/x86_64-linux-gnu/7.0.1/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/xlocale.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/local/include/jansson.h \
+=======
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/jansson.h \
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h \
  /usr/local/gcc-6.2/lib/gcc/x86_64-linux-gnu/7.0.1/include/stdarg.h \
@@ -34,7 +38,11 @@ minerd-sha2.o: sha2.c /usr/include/stdc-predef.h cpuminer-config.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+<<<<<<< HEAD
  /usr/local/include/jansson_config.h /usr/include/curl/curl.h \
+=======
+ /usr/include/jansson_config.h /usr/include/curl/curl.h \
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
  /usr/include/curl/curlver.h /usr/include/curl/curlbuild.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
@@ -121,7 +129,11 @@ miner.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
+<<<<<<< HEAD
 /usr/local/include/jansson.h:
+=======
+/usr/include/jansson.h:
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 
 /usr/include/stdio.h:
 
@@ -155,7 +167,11 @@ miner.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
+<<<<<<< HEAD
 /usr/local/include/jansson_config.h:
+=======
+/usr/include/jansson_config.h:
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 
 /usr/include/curl/curl.h:
 

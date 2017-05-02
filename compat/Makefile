@@ -181,6 +181,7 @@ am__relativize = \
     dir1=`echo "$$dir1" | sed -e "$$sed_rest"`; \
   done; \
   reldir="$$dir2"
+<<<<<<< HEAD
 ACLOCAL = ${SHELL} /home/lock/Загрузки/gostMiner-master/missing aclocal-1.15
 ALLOCA = 
 AMTAR = $${TAR-tar}
@@ -188,6 +189,15 @@ AM_DEFAULT_VERBOSITY = 1
 AUTOCONF = ${SHELL} /home/lock/Загрузки/gostMiner-master/missing autoconf
 AUTOHEADER = ${SHELL} /home/lock/Загрузки/gostMiner-master/missing autoheader
 AUTOMAKE = ${SHELL} /home/lock/Загрузки/gostMiner-master/missing automake-1.15
+=======
+ACLOCAL = ${SHELL} /home/lock/Загрузки/cpuminer-x11-gost-master/missing aclocal-1.15
+ALLOCA = 
+AMTAR = $${TAR-tar}
+AM_DEFAULT_VERBOSITY = 1
+AUTOCONF = ${SHELL} /home/lock/Загрузки/cpuminer-x11-gost-master/missing autoconf
+AUTOHEADER = ${SHELL} /home/lock/Загрузки/cpuminer-x11-gost-master/missing autoheader
+AUTOMAKE = ${SHELL} /home/lock/Загрузки/cpuminer-x11-gost-master/missing automake-1.15
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 AWK = gawk
 CC = gcc
 CCAS = gcc
@@ -219,7 +229,11 @@ LIBOBJS =
 LIBS = 
 LTLIBOBJS = 
 MAINT = #
+<<<<<<< HEAD
 MAKEINFO = ${SHELL} /home/lock/Загрузки/gostMiner-master/missing makeinfo
+=======
+MAKEINFO = ${SHELL} /home/lock/Загрузки/cpuminer-x11-gost-master/missing makeinfo
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
 PACKAGE = cpuminer
@@ -239,10 +253,17 @@ STRIP =
 VERSION = 2.3.2
 WS2_LIBS = 
 _libcurl_config = 
+<<<<<<< HEAD
 abs_builddir = /home/lock/Загрузки/gostMiner-master/compat
 abs_srcdir = /home/lock/Загрузки/gostMiner-master/compat
 abs_top_builddir = /home/lock/Загрузки/gostMiner-master
 abs_top_srcdir = /home/lock/Загрузки/gostMiner-master
+=======
+abs_builddir = /home/lock/Загрузки/cpuminer-x11-gost-master/compat
+abs_srcdir = /home/lock/Загрузки/cpuminer-x11-gost-master/compat
+abs_top_builddir = /home/lock/Загрузки/cpuminer-x11-gost-master
+abs_top_srcdir = /home/lock/Загрузки/cpuminer-x11-gost-master
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 ac_ct_CC = gcc
 am__include = include
 am__leading_dot = .
@@ -269,7 +290,11 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
+<<<<<<< HEAD
 install_sh = ${SHELL} /home/lock/Загрузки/gostMiner-master/install-sh
+=======
+install_sh = ${SHELL} /home/lock/Загрузки/cpuminer-x11-gost-master/install-sh
+>>>>>>> 08b235d1b10840fd5ebee1f208b8bd2c91435b8b
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
